@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project is an end-to-end Customer Churn Analysis project developed using **Python, Pandas, NumPy, Jupyter Notebook, MySQL, SQL, and Microsoft Power BI**.
+This project is an end-to-end **Customer Churn Analysis** project developed using **Python, Pandas, NumPy, Jupyter Notebook, MySQL, SQL, and Microsoft Power BI**.
 
 The project focuses on cleaning customer data, performing data analysis, creating calculated features, analyzing customer churn, performing SQL analysis, creating DAX measures, and developing an interactive Power BI dashboard.
 
@@ -10,14 +10,14 @@ The project focuses on cleaning customer data, performing data analysis, creatin
 
 ## 🛠️ Tools & Technologies
 
-- Python
-- Pandas
-- NumPy
-- Jupyter Notebook
-- MySQL
-- SQL
-- Microsoft Power BI
-- DAX
+- **Python** – Data analysis and preprocessing
+- **Pandas** – Data cleaning and manipulation
+- **NumPy** – Numerical operations
+- **Jupyter Notebook** – Data cleaning and analysis
+- **MySQL** – Database storage and analysis
+- **SQL** – Data querying and business analysis
+- **Microsoft Power BI** – Interactive dashboard and visualization
+- **DAX** – Power BI measures and KPI calculations
 
 **Data Source:** Excel (`.xlsx`) file loaded into Python using Pandas.
 
@@ -25,19 +25,20 @@ The project focuses on cleaning customer data, performing data analysis, creatin
 
 ## 🎯 Project Objectives
 
-- Clean and prepare customer churn data.
-- Handle missing and inconsistent values.
-- Remove duplicate records.
-- Validate customer data.
-- Perform data analysis using Python.
-- Use Pandas and NumPy for data cleaning and transformation.
-- Create new analytical features.
-- Store the cleaned data in MySQL.
-- Perform business analysis using SQL.
-- Create DAX measures in Power BI.
-- Build an interactive customer churn dashboard.
-- Identify customer churn patterns.
-- Present business insights through data visualization.
+- Clean and prepare customer churn data
+- Handle missing and inconsistent values
+- Remove duplicate records
+- Validate customer data
+- Perform data analysis using Python
+- Use Pandas and NumPy for data cleaning and transformation
+- Create new analytical features
+- Export the cleaned dataset to CSV
+- Store the cleaned data in MySQL
+- Perform business analysis using SQL
+- Create DAX measures in Power BI
+- Build an interactive customer churn dashboard
+- Identify customer churn patterns
+- Present business insights through data visualization
 
 ---
 
@@ -55,7 +56,7 @@ The main goal of this project is to analyze customer churn and understand patter
 - Senior citizen status
 - Revenue
 
-The final objective is to transform raw customer data into meaningful business insights using Python, SQL, and Power BI.
+The final objective is to transform raw customer data into meaningful business insights using **Python, SQL, and Power BI**.
 
 ---
 
@@ -113,34 +114,44 @@ Feature engineering
 Creating customer classification flags
 Jupyter Notebook
 
-Jupyter Notebook was used to document and perform the complete Python data-cleaning workflow.
+Jupyter Notebook was used to document and perform the complete Python data-cleaning and transformation workflow.
 
 🧹 Data Cleaning
+Initial Dataset
 
-The raw dataset initially contained:
+The raw dataset contained:
 
 542 rows
 18 columns
+Cleaning Process
 
 The cleaning process included:
 
-Duplicate removal
-Dirty-value replacement
-Extra-space removal
+Checking missing values
+Removing duplicate records
+Replacing dirty values
+Removing extra spaces
+Standardizing text values
 Proper-case standardization
-Age validation
-Negative-charge removal
-Date conversion
-Missing-value handling
-Data-type validation
+Validating age values
+Removing invalid negative charges
+Converting date values
+Handling missing values
+Converting data types
+Cleaned Dataset
 
-After cleaning and transformation, the dataset contained:
+After the main cleaning process:
+
+492 rows
+18 original columns
+
+After feature engineering:
 
 492 rows
 23 columns
 ⚙️ Feature Engineering
 
-The following analytical columns were created during the Python workflow:
+The following analytical columns were created during the Python workflow.
 
 Customer_Value
 Customer_Value = Monthly_Charges × Tenure_Months
@@ -156,7 +167,7 @@ Customers were grouped into:
 49–72 Months
 Senior_Flag
 
-Customers were classified based on age:
+Customers were classified into:
 
 Adult
 Senior
@@ -168,7 +179,7 @@ Yes = 1
 No  = 0
 🗄️ MySQL & SQL
 
-The cleaned dataset was exported to MySQL using SQLAlchemy and PyMySQL.
+The cleaned dataset was exported to CSV and loaded into MySQL for further analysis.
 
 MySQL Database
 Database: churndb
@@ -189,7 +200,7 @@ Revenue analysis
 
 Microsoft Power BI was used to create the Customer Churn Analysis Dashboard.
 
-The dashboard contains KPI cards, charts, slicers, and interactive visualizations.
+The dashboard contains KPI cards, charts, slicers, filters, and interactive visualizations.
 
 📈 Dashboard KPIs
 
@@ -205,7 +216,7 @@ Average Monthly Charges	1.36K
 Average Tenure	35.95
 📐 DAX
 
-DAX was used to create Power BI measures for the dashboard.
+DAX was used in Power BI to create calculated measures for the dashboard.
 
 The dashboard includes measures for:
 
@@ -220,9 +231,6 @@ Average Tenure
 These measures are used in the KPI cards and dashboard visualizations.
 
 📊 Dashboard Features
-
-The dashboard includes:
-
 1. Churned Customers by Contract Type
 
 Shows churned customers across:
@@ -254,7 +262,7 @@ Net Banking
 Cash
 5. Total Revenue by State
 
-Shows total revenue across the major states displayed in the dashboard.
+Shows total revenue across the states displayed in the dashboard.
 
 6. Churned Customers by Internet Service
 
@@ -281,7 +289,7 @@ Standard
 This allows interactive filtering of the dashboard.
 
 📊 Dashboard Preview
-![Customer Churn Analysis Dashboard]("Customer_Churn_Dashboard.png")
+
 📂 Project Structure
 Customer-Churn-Analysis-Power-BI/
 │
@@ -296,3 +304,52 @@ Customer-Churn-Analysis-Power-BI/
 ├── Customer_Churn_Analysis_Dashboard.pbix
 │
 └── Customer_Churn_Dashboard.png
+🧠 Skills Demonstrated
+Python
+Data Cleaning
+Data Transformation
+Data Analysis
+Feature Engineering
+Pandas & NumPy
+DataFrame manipulation
+Missing-value handling
+Duplicate removal
+Data transformation
+Numerical processing
+MySQL & SQL
+Database management
+SQL queries
+Filtering
+Grouping
+Aggregation
+Power BI & DAX
+KPI Development
+DAX Measures
+Data Visualization
+Interactive Dashboards
+Slicers
+Filters
+Business Intelligence
+🚀 Project Outcome
+
+This project demonstrates an end-to-end Data Analytics workflow from raw customer data to an interactive Power BI dashboard.
+
+The project combines Python, Pandas, NumPy, MySQL, SQL, DAX, and Power BI to clean data, perform analysis, create business metrics, and visualize customer churn patterns.
+
+📌 Project Title
+
+Customer Churn Analysis – Power BI
+
+Technologies
+
+Python Pandas NumPy Jupyter Notebook MySQL SQL Power BI DAX
+
+
+### 🔴 Most important fix for your PNG
+
+Use **exactly** this:
+
+```markdown
+## 📊 Dashboard Preview
+
+![Customer Churn Analysis Dashboard](Customer_Churn_Dashboard.png)
