@@ -281,7 +281,7 @@ Standard
 This allows interactive filtering of the dashboard.
 
 📊 Dashboard Preview
-![Customer Churn Analysis Dashboard](Customer_Churn_Dashboard.png)
+![Customer Churn Analysis Dashboard]("Customer_Churn_Dashboard.png")
 📂 Project Structure
 Customer-Churn-Analysis-Power-BI/
 │
